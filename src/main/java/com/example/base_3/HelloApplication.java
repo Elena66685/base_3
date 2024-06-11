@@ -21,8 +21,14 @@ public class HelloApplication extends Application {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         //launch();
         DatabaseConnetor ql = new DatabaseConnetor();
-        ql.CreateDB();
-
-
+        //ql.inserting_data("Marina", 5678);
+        //ql.getUserData();
+        //ql.inserting_products("рис", 34678);
+        //ql.getUserProducts();
+        //ql.userName("Marina");
+        //ql.inserting_users_product(1, 4);
+        //ql.getUsers_Products();
+        //ql.getUser_Products();
+        //ql.getUserProducts_price(17);
     }
 }
